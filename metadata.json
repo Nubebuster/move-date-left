@@ -1,0 +1,8 @@
+{
+  "description": "Move date menu to the right. Nothing else.",
+  "name": "Move date menu to the right",
+  "shell-version": ["46", "47"],
+  "uuid": "move-date@fthx",
+  "url": "https://github.com/fthx/move-date",
+  "version": 999
+}
