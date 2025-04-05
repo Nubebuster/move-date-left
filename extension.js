@@ -10,9 +10,9 @@ export default class MoveDateExtension {
     _moveDate(active) {
         if (active) {
             Main.sessionMode.panel.center = Main.sessionMode.panel.center.filter(item => item != 'dateMenu')
-            Main.sessionMode.panel.right.splice(-1, 0, 'dateMenu');
+            Main.sessionMode.panel.left.splice(-1, 0, 'dateMenu');
         } else {
-            Main.sessionMode.panel.right = Main.sessionMode.panel.right.filter(item => item != 'dateMenu')
+            Main.sessionMode.panel.left = Main.sessionMode.panel.right.filter(item => item != 'dateMenu')
             Main.sessionMode.panel.center.push('dateMenu');
         }
 
